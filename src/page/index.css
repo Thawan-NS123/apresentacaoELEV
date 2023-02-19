@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Font-1';
+    src: url(../assets/fonts/CircularSpUIv3T-Black.woff2);
+}
+
+@font-face {
+    font-family: 'Font-2';
+    src: url(../assets/fonts/CircularSpUIv3T-Book.woff2);
+}
+
+@font-face {
+    font-family: 'Font-3';
+    src: url(../assets/fonts/Interstate-BlackCondItalic-da1f54cf95ec060c7c84946e58f9aeaf7bac31ef251ccea3d83b45a23abee8ae.woff);
+}
+
+@font-face {
+    font-family: 'Font-4';
+    src: url(../assets/fonts/SourceSansPro-Regular-a13fb29f4c89c74f6035d416dd5403289425f6b9c7edb44062fc2b8f49925fab.woff);
+}
+
+@font-face {
+    font-family: 'Font-5';
+    src: url(../assets/fonts/1cce82154216dc3cb04a84d011ce1201.woff2);
+}
+
+@font-face {
+    font-family: 'Font-6';
+    src: url(../assets/fonts/ae7c84783ad48b6d1c8e2bfbe707e0d4.woff2);
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgb(147, 197, 231) 26%, rgb(74, 245, 193) 100%, rgb(8, 38, 134) 100%);
+  
+} 
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(7, 117, 190);
+    background: linear-gradient(90deg, rgb(7, 117, 190) 26%, rgb(7, 80, 190) 100%, rgb(40, 89, 252) 100%);
+    padding: 0.5em;
+}
+
+
+
+.ELEVANTUS,
+.Info{
+    font-family: 'Font-2';
+    font-size: 2em;
+    color: white;
+
+}
+
+.Info{
+    margin-right: 0.5em;
+}
+
+.ELEVANTUS{
+    margin-left: 1em;
+}
+
+
+img{
+    width: 5em;
+    margin-right: 1em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 3em;
+}
+
+
+.Seja_Bem-Vindo{
+    font-family: "Font-5";
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    color: rgb(21, 18, 189);
+    background: fixed;
+}
+
+
+
+span{
+    font-family: 'Font-2';
+    margin-left: 0.2em;
+}
+  
+ul{
+    text-align: center;
+    list-style-type: none;
+
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 2em;
+    margin-right: 1em;
+}
+
+li{
+    font-size: 1.5em;
+    font-family: 'Font-4';
+    margin-bottom: 1em;
+}
+
+
+
+
+  
